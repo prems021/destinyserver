@@ -1,0 +1,37 @@
+{
+  "name": "chameleon",
+  "version": "1.0.0",
+  "description": "Simple chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "connect-multiparty": "*",
+    "cors": "^2.8.1",
+    "ejs": "*",
+    "express": "4.x.x",
+    "express-session": "*",
+    "file-system": "*",
+    "jade": "*",
+    "jsonwebtoken": "^7.1.9",
+    "jwt-simple": "^0.5.1",
+    "log": "*",
+    "moment": "*",
+    "mongoose": "*",
+    "morgan": "^1.7.0",
+    "node-pushnotifications": "^1.0.10",
+    "nodemailer": "*",
+    "nstore": "*",
+    "push-notification": "^0.1.8",
+    "socket.io": "*",
+    "speakeasy": "1.0.x",
+    "twilio": "1.1.x",
+    "ws": "*"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "license": "ISC"
+}
